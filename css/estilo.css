@@ -1,0 +1,112 @@
+/* FONDO GENERAL */
+body {
+    background-color: #ffffff;
+}
+
+/* LOGO */
+.logo {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.img-logo {
+    width: 32px;
+    height: 32px;
+}
+
+/* MENU LATERAL */
+.sidebar {
+    min-height: calc(100vh - 50px);
+    background: linear-gradient(180deg, #172554, #1e3a8a);
+    padding: 25px 18px !important;
+    border-right: none;
+    border-radius: 0 15px 15px 0;
+    box-shadow: 4px 0 15px rgba(0, 0, 0, 0.12);
+}
+
+/* TITULO DEL MENU */
+.sidebar h6 {
+    color: #93c5fd !important;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-left: 12px;
+    margin-bottom: 25px !important;
+}
+
+/* OPCIONES DEL MENU */
+.sidebar .nav-link {
+    display: block;
+    color: #dbeafe !important;
+    padding: 13px 15px !important;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-left: 4px solid transparent;
+}
+
+/* EFECTO AL PASAR EL CURSOR */
+.sidebar .nav-link:hover {
+    background-color: rgba(147, 197, 253, 0.18) !important;
+    color: #ffffff !important;
+    padding-left: 22px !important;
+    border-left: 4px solid #60a5fa;
+}
+
+/* OPCION ACTIVA */
+.sidebar .nav-link.active {
+    background-color: #2563eb !important;
+    color: #ffffff !important;
+    font-weight: bold;
+    border-left: 4px solid #bfdbfe;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* EFECTO DE OPCION ACTIVA */
+.sidebar .nav-link.active:hover {
+    background-color: #2563eb !important;
+}
+
+/* CONTENIDO */
+.contenido {
+    padding: 30px;
+}
+
+/* TARJETAS */
+.tarjeta-resumen {
+    border: none;
+    border-radius: 14px;
+}
+
+/* NUMEROS */
+.numero {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* FOOTER */
+.footer {
+    font-size: 0.85rem;
+}
+
+/* AJUSTE PARA CELULARES */
+@media (max-width: 767px) {
+    .sidebar {
+        min-height: auto;
+        border-radius: 0 0 15px 15px;
+        margin-bottom: 15px;
+    }
+    /* COLOR DEL ENCABEZADO */
+.navbar.bg-dark {
+    background: linear-gradient(90deg, #4e74f1, #2fcbd6) !important;
+}
+
+/* COLOR DEL NOMBRE TuEspacio */
+.navbar .navbar-brand {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+}
